@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
         plugin = {"pretty","json:target/cucumber-json-reports/cucumber.json"}
 
 )
-@Test
+
 public class Task_Runner_1 {
 
 
