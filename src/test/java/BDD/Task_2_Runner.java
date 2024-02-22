@@ -8,7 +8,7 @@ import org.testng.annotations.Test
 @CucumberOptions(
         features = "src/test/resources/FeaturesFile",
         glue = "Stepdefintions",
-        plugin = {"pretty","html:target/cucumber-reports"}
+        plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber-json-reports/cucumber.json"}
 
 )
 @Test
